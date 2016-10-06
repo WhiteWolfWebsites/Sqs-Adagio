@@ -1,0 +1,9 @@
+
+    <div id="page-footer-wrapper">
+      <squarespace:block-field id="page-footer" columns="12" label="Site Footer" />
+    </div>
+
+    {squarespace-footers}
+
+  </body>
+</html>

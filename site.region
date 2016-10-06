@@ -1,0 +1,19 @@
+
+
+    <div id="page-body-wrapper" class="full-width">
+      <div id="page-body">
+
+        <div id="content-wrapper">
+          <div id="content">
+
+            <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+              {squarespace.main-content}
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
