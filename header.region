@@ -8,3 +8,9 @@
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.end}" id="{squarespace.page-id}" ontouchstart="">
+
+  <div id="header-wrapper" class="header-wrapper">
+    <div class="header-inner">
+      {@|apply navigation.block}
+    </div>
+  </div>
