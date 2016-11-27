@@ -7,7 +7,7 @@
     {squarespace-headers}
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
-  <body class="{squarespace.page-classes}{.end}" id="{squarespace.page-id}" ontouchstart="">
+  <body class="{squarespace.page-classes}" id="{squarespace.page-id}" ontouchstart="">
 
   <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
     <div class="header-inner">
