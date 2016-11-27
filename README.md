@@ -6,9 +6,9 @@ Now Websites - Custom Template
 >[Template Name]
 
 #### Features
-- [ ] Built-in tabs
-- [ ] Built-in accordion
-- [ ] Smooth Page Transitions (AJAX)
+- [ ] Tab Collection
+- [ ] Accordion Collection
+- [x] Font Awesome v4.7
 
 ## Template Hosting
 #### Domains
