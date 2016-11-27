@@ -1,4 +1,4 @@
-Now Websites - Adagio Template
+Adagio Template
 =======
 >Source code and assets for [site URL]
 
