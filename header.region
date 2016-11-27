@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {.end}
     {squarespace-headers}
-    {# <squarespace:script src="site-bundle.js" combo="true" />}
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.end}" id="{squarespace.page-id}" ontouchstart="">
