@@ -35,6 +35,14 @@
           <div id="page-thumb" class="content-fill">
             {@|apply sqs-video-background.block}
           </div>
+        {.or}
+          {.if mainImage}
+            <div class="banner-thumbnail-wrapper">
+              {.section mainImage}
+                <figure id="page-thumb" class="loading content-fill"><img {@|image-meta} data-load="false" />
+              {.end}
+            </figure>
+          {.end}
         {.end}
       {.end}
 
