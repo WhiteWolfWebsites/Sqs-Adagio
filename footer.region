@@ -4,7 +4,7 @@
       </div>
     </div>{# End Site Wrapper }
     
-    {# <squarespace:script src="site-bundle.js" combo="false" />}
+    <squarespace:script src="site-bundle.js" combo="false" />
     {squarespace-footers}
 
   </body>
