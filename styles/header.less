@@ -20,13 +20,15 @@
   padding: @headerPadding (@headerPadding + @headerPadding);
 }
 
+#siteTitleWrapper,
+#headerNav {
+  .flex-num(1);
+}
+
 /* Header Arrangement */
 .header-arrangement {
   &-left {
-    #siteTitle {
-      text-align: left;
-    }
-    #logoImage {
+    #siteTitleWrapper {
       text-align: left;
     }
     #headerNav .nav-wrapper nav {
@@ -34,8 +36,7 @@
     }
   }
   &-center {
-    #siteTitle,
-    #logoImage,
+    #siteTitleWrapper,
     #headerNav .nav-wrapper nav {
       text-align: center;
     }
@@ -44,18 +45,21 @@
     }
   }
   &-right {
-
+    #siteTitleWRapper {
+      text-align: right;
+    }
+    #headerNav .nav-wrapper nav {
+      text-align: left;
+    }
   }
 }
 
 #logoImage {
-  .flex-num(1);
   width: @logoContainerWidth;
 }
 
 #siteTitle {
   .site-title-font;
-  .flex-num(1);
   color: @siteTitleColor;
   width: @siteTitleContainerWidth;
 
