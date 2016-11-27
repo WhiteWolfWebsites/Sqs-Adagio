@@ -10,9 +10,27 @@ body {
   background-color: #fff; /* Remove when added to tweak.less */
 }
 
+h1,
+h2,
+h3 {
+  text-rendering: optimizeLegibility;
+  margin: 1.5em auto 0.3em;
+  
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1:not(.site-title):not(.entry-title),
+h2,
+h3 {
+  margin: 1.5em auto 0.3em;
+  &:first-child { margin-top: 0; }
+}
+
 .site-wrapper {
   position: relative;
-  padding: 0;
+  padding: 0 8%;
   .border-box();
 }
 
