@@ -10,7 +10,7 @@
 
 /*tweak: { "type" : "checkbox", "category" : "Site Header", "title" : "Transparent Header", "label" : "Transparent on Banner Images", "active" : false, "target" : "#header" }*/
 
-// tweak: { "type" : "value", "category" : "Site Header", "title" : "Header Padding", "label" : "Padding", "min" : 0, "max" : 50, "step" : 1, "target" : ".header-inner" }
+// tweak: { "type" : "value", "category" : "Site Header", "title" : "Header Padding", "label" : "Padding", "min" : 0, "max" : 50, "step" : 1, "target" : ".header-inner", "property" : [ "padding" ] }
 @headerPadding: 20px;
 
 // tweak: { "type" : "font", "category" : "Site Header", "title" : "Site Title Font", "showOnlyWhenPresent" : "#siteTitle", "target" : "#siteTitle", "loadAllVariants" : true }
@@ -44,10 +44,10 @@
   text-transform: none;
 }
 
-// tweak: { "type" : "color", "category" : "Navigation", "title" : "Primary Nav Color", "label" : "Primary Color", "showOnlyWhenPresent" : "#mainNavWrapper", "target" : "#headerNav .nav-wrapper nav div a" }
+// tweak: { "type" : "color", "category" : "Navigation", "title" : "Primary Nav Color", "label" : "Primary Color", "showOnlyWhenPresent" : "#mainNavWrapper", "target" : "#headerNav .nav-wrapper nav div" }
 @primaryNavColor: #fff;
 
-// tweak: { "type" : "color", "category" : "Navigation", "title" : "Primary Nav Active Color", "label" : "Primary Active Color", "showOnlyWhenPresent" : "#mainNavWrapper", "target" : "#headerNav .nav-wrapper nav div.active a" }
+// tweak: { "type" : "color", "category" : "Navigation", "title" : "Primary Nav Active Color", "label" : "Primary Active Color", "showOnlyWhenPresent" : "#mainNavWrapper", "target" : "#headerNav .nav-wrapper nav div.active" }
 @primaryNavActiveColor: #fff;
 
 /* BANNER */
