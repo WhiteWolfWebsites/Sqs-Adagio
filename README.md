@@ -8,10 +8,7 @@ Now Websites - Custom Template
 #### Features
 - [ ] Built-in tabs
 - [ ] Built-in accordion
-- [ ] Powered by Now Badge\*
 - [ ] Smooth Page Transitions (AJAX)
-
-_\*You can remove this by using a checkbox in the style editor_
 
 ## Template Hosting
 #### Domains
