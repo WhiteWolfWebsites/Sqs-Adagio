@@ -1,0 +1,57 @@
+
+.border-box() {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.border-radius(@rad) {
+  -webkit-border-radius: @rad;
+          border-radius: @rad;
+}
+
+.box-shadow(@shadowArg) {
+  -webkit-box-shadow: @shadowArg;
+          box-shadow: @shadowArg;
+}
+
+.flex-box() {
+  display: -webkit-flex;
+  display:         flex;
+}
+
+.flex-num(@num) {
+  -webkit-flex: @num;
+      -ms-flex: @num;
+          flex: @num;
+}
+
+.flex-flow(@direction, @wrap) {
+  -webkit-flex-flow: @direction @wrap;
+          flex-flow: @direction @wrap;
+}
+
+/* To use multiple transitions enter them like this: .transition(~"background 0.3s ease, color 0.3s ease"); */
+.transition(@transition) {
+  -webkit-transition: @transition;
+     -moz-transition: @transition;
+      -ms-transition: @transition;
+       -o-transition: @transition;
+          transition: @transition;
+}
+
+.transform(@string){
+  -webkit-transform: @string;
+     -moz-transform: @string;
+      -ms-transform: @string;
+       -o-transform: @string;
+          transform: @string;
+}
+
+.transform-origin(@x:center, @y:center) {
+  -webkit-transform-origin: @x @y;
+     -moz-transform-origin: @x @y;
+      -ms-transform-origin: @x @y;
+       -o-transform-origin: @x @y;
+          transform-origin: @x @y;
+}
