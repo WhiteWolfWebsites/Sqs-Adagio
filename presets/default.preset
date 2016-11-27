@@ -1,0 +1,24 @@
+{
+  "title" : "Default",
+  "templateTweaks" : {
+    "small-button-block-font": "{font-family:Arial, sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;font-weight:600;font-style:normal}",
+    "small-button-block-font-font-family": "Arial, sans-serif",
+    "small-button-block-font-font-family-array": "[]",
+    "medium-button-block-font": "{font-family:Arial, sans-serif;font-size:15px;text-transform:uppercase;letter-spacing:1px;font-weight:600;font-style:normal}",
+    "medium-button-block-font-font-family": "Arial, sans-serif",
+    "medium-button-block-font-font-family-array": "[]",
+    "large-button-block-font": "{font-family:Arial, sans-serif;font-size:20px;text-transform:uppercase;letter-spacing:1px;font-weight:600;font-style:normal}",
+    "large-button-block-font-font-family": "Arial, sans-serif",
+    "large-button-block-font-font-family-array": "[]",
+    "button-style": "Solid",
+    "system-button-font": "{font-family:Arial, sans-serif;text-transform:uppercase;letter-spacing:1px;font-weight:600;font-style:normal}",
+    "system-button-font-font-family": "Arial, sans-serif",
+    "system-button-font-font-family-array": "[]",
+    "announcement-bar-font": "{font-family:Arial;font-size:13px;text-transform:none;letter-spacing:1px;font-weight:300;font-style:normal}",
+    "announcement-bar-font-font-family": "Arial",
+    "announcement-bar-font-font-family-array": "[]",
+    "tweak-product-quick-view-button-font": "{font-family:Arial, sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1px;font-weight:normal;font-style:normal}",
+    "tweak-product-quick-view-button-font-font-family": "Arial, sans-serif",
+    "tweak-product-quick-view-button-font-font-family-array": "[]"
+  }
+}
