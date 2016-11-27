@@ -17,6 +17,4 @@ Built-In: [Built-In Domain]
 
 #### Git
 Squarespace: [Squarespace git location]  
-Gitlab: [Client backup location]  
-
-Template Source: https://github.com/NathanPaynter/SqSp-Adagio.git
+Backup: https://github.com/NathanPaynter/SqSp-Adagio.git  
