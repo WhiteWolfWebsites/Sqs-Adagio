@@ -1,6 +1,6 @@
 Adagio Template
 =======
->Source code and assets for [site URL]
+>Source code and assets for https://adagio-demo.squarespace.com
 
 ## Template Family
 >Adagio
@@ -12,9 +12,9 @@ Adagio Template
 
 ## Template Hosting
 #### Domains
-Primary: [Primary Domain]  
-Built-In: [Built-In Domain] 
+Primary: https://adagio-demo.squarespace.com  
+Built-In: https://adagio-demo.squarespace.com 
 
 #### Git
-Squarespace: [Squarespace git location]  
+Squarespace: https://adagio-demo.squarespace.com/template.git  
 Backup: https://github.com/NathanPaynter/SqSp-Adagio.git  
