@@ -1,0 +1,23 @@
+
+.transparent-header {
+  #header {
+    background-color: transparent;
+  }
+}
+
+#header {
+  background-color: @headerBgColor;
+}
+
+#siteTitle {
+  .site-title-font;
+  color: @siteTitleColor;
+
+  a {
+    color: @siteTitleColor;
+
+    &:hover {
+      color: fadeout(@siteTitleColor, 30%);
+    }
+  }
+}
