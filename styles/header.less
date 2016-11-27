@@ -12,6 +12,7 @@
 }
 
 .header-inner {
+  .flex-box();
   width: auto;
   height: auto;
   .border-box();
@@ -19,9 +20,44 @@
   padding: @headerPadding (@headerPadding + @headerPadding);
 }
 
+/* Header Arrangement */
+.header-arrangement {
+  &-left {
+    #siteTitle {
+      text-align: left;
+    }
+    #logoImage {
+      text-align: left;
+    }
+    #headerNav .nav-wrapper nav {
+      text-align: right;
+    }
+  }
+  &-center {
+    #siteTitle,
+    #logoImage,
+    #headerNav .nav-wrapper nav {
+      text-align: center;
+    }
+    .header-inner {
+      display: block;
+    }
+  }
+  &-right {
+
+  }
+}
+
+#logoImage {
+  .flex-num(1);
+  width: @logoContainerWidth;
+}
+
 #siteTitle {
   .site-title-font;
+  .flex-num(1);
   color: @siteTitleColor;
+  width: @siteTitleContainerWidth
 
   a {
     color: @siteTitleColor;
