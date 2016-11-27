@@ -9,17 +9,19 @@
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}" id="{squarespace.page-id}" ontouchstart="">
 
-  <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
-    <div class="header-inner">
-      {.section website}<div id="{.if logoImageUrl}logoWrapper{.or}siteTitleWrapper{.end}" class="wrapper" data-content-field="site-title">
-        {.section logoImageUrl}
-          <h1 id="logoImage"><a href="/"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a></h1>
-        {.or}
-          <h1 id="siteTitle" class="site-title"><a href="/">{siteTitle}</a></h1>
+  <div class="site-wrapper">
+
+    <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
+      <div class="header-inner">
+        {.section website}<div id="{.if logoImageUrl}logoWrapper{.or}siteTitleWrapper{.end}" class="wrapper" data-content-field="site-title">
+          {.section logoImageUrl}
+            <h1 id="logoImage"><a href="/"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a></h1>
+          {.or}
+            <h1 id="siteTitle" class="site-title"><a href="/">{siteTitle}</a></h1>
+          {.end}
         {.end}
-      {.end}
-      </div><!-- comment the linebreak between these two elements because science
-      --><label for="mobileNavToggle" class="mobile-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><label for="mobileNavToggle" class="mobile-nav-toggle-label fixed-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><!-- comment the linebreak between these two elements because science
-      --><div id="headerNav"><squarespace:navigation navigationId="navPrime" template="navigation" /></div>
-    </div>
-  </header>
+        </div><!-- comment the linebreak between these two elements because science
+        --><label for="mobileNavToggle" class="mobile-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><label for="mobileNavToggle" class="mobile-nav-toggle-label fixed-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><!-- comment the linebreak between these two elements because science
+        --><div id="headerNav"><squarespace:navigation navigationId="navPrime" template="navigation" /></div>
+      </div>
+    </header>
