@@ -1,9 +1,9 @@
-Now Websites - Custom Template
+Now Websites - Adagio Template
 =======
 >Source code and assets for [site URL]
 
 ## Template Family
->[Template Name]
+>Adagio
 
 #### Features
 - [ ] Tab Collection
@@ -19,4 +19,4 @@ Built-In: [Built-In Domain]
 Squarespace: [Squarespace git location]  
 Gitlab: [Client backup location]  
 
-Template Source: https://github.com/NathanPaynter/SqSp-Custom.git
+Template Source: https://github.com/NathanPaynter/SqSp-Adagio.git
