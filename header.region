@@ -7,7 +7,7 @@
     {squarespace-headers}
   </head>
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
-  <body class="{squarespace.page-classes}" id="{squarespace.page-id}" ontouchstart="">
+  <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or}{.end}{.end}{.section collection}{.background-source-video?} has-page-thumbnail{.or}{.section mainImage} has-page-thumbnail{.end}{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
 
   <div class="site-wrapper">
 
