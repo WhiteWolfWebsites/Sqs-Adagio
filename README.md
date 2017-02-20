@@ -7,6 +7,6 @@ Adagio Template
 
 #### Features
 - [x] Font Awesome v4.7.0
-- [ ] jQuery v3.1.1
+- [x] jQuery v3.1.1
 - [ ] Tab Collection
 - [ ] Accordion Collection
