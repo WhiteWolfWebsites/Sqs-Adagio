@@ -6,15 +6,7 @@ Adagio Template
 >Adagio
 
 #### Features
+- [x] Font Awesome v4.7.0
+- [ ] jQuery v3.1.1
 - [ ] Tab Collection
 - [ ] Accordion Collection
-- [x] Font Awesome v4.7
-
-## Template Hosting
-#### Domains
-Primary: https://adagio-demo.squarespace.com  
-Built-In: https://adagio-demo.squarespace.com 
-
-#### Git
-Squarespace: https://adagio-demo.squarespace.com/template.git  
-Backup: https://github.com/NathanPaynter/SqSp-Adagio.git  
