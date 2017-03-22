@@ -1,6 +1,6 @@
 Adagio Template
 =======
->Source code and assets for https://adagio-demo.squarespace.com
+>Source code and assets for https://adagio-demo.nathanpaynter.com
 
 ## Template Family
 >Adagio
@@ -12,4 +12,4 @@ Adagio Template
 - [ ] Accordion Collection
 
 ## Feedback
-If you notice any bugs or issues with this template or would like to request a feature to be added, please use the [the issues tab](https://github.com/NathanPaynter/SqSp-Adagio/issues). Thank you!
+If you notice any bugs or issues with this template or would like to request a feature to be added, please use the [the issues tab](https://github.com/NathanPaynter/Sqs-Adagio/issues). Thank you!
