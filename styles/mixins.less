@@ -1,8 +1,12 @@
-
 .border-box() {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+.content-box() {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 .border-radius(@rad) {
@@ -16,14 +20,19 @@
 }
 
 .flex-box() {
-  display: -webkit-flex;
-  display:         flex;
+  display: -webkit-box; // OLD - iOS 6-, Safari 3.1-6
+  display: -moz-box; // OLD - Firefox 19- (buggy but mostly works)
+  display: -ms-flexbox; // TWEENER - IE 10
+  display: -webkit-flex; // NEW - Chrome
+  display: flex; // NEW, Spec - Opera 12.1, Firefox 20+
 }
 
-.flex-num(@num) {
-  -webkit-flex: @num;
-      -ms-flex: @num;
-          flex: @num;
+.flex-num(@flex-num) {
+  -webkit-box-flex: @flex-num; // OLD - iOS6-, Safari 3.1-6
+     -moz-box-flex: @flex-num; // OLD - Firefox 19-
+      -webkit-flex: @flex-num; // Chrome
+          -ms-flex: @flex-num; // IE 10
+              flex: @flex-num; // NEW, Spec - Opera 12.1, Firefox 20+
 }
 
 .flex-flow(@direction, @wrap) {
